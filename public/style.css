@@ -1,0 +1,7 @@
+#dropzone {
+	position: absolute;
+	width: 80%;
+	height: 90%;
+	background: url(bg.png) no-repeat center center;
+	background-size: 75px;
+}

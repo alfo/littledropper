@@ -1,9 +1,9 @@
 <script language="javascript" type="text/javascript">
 	function popitup(url) {
-		newwindow=window.open(url,'name','height=75,width=100');
+		newwindow=window.open(url,'name','height=150,width=100');
 		newwindow.moveTo(0,1000);
 		if (window.focus) {newwindow.focus()}
-		return false;
+		close();
 	}
 
 	window.onload = popitup('/popup.html');

@@ -47,7 +47,7 @@ post '/post' do
 	</body>
 </html>"
 	
-	result = connection.post('playground/direct_print/OZNK4GWVGDE6', :html => html)
+	result = connection.post('playground/direct_print/YOUR_PRINT_CODE', :html => html)
 
 	result.body
 	

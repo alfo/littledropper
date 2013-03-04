@@ -1,0 +1,23 @@
+{
+	"name": "Little Stickies",
+	"version": "1",
+	"description": "",
+	"browser_action": {
+		"default_icon": "48.png",
+		"default_title": "Stickies",
+		"default_popup": "popup.html"
+	},
+
+	"icons": {
+		"256": "icon.png"
+	},
+
+	"manifest_version": 2,
+
+	"permissions": [
+	    "<all_urls>",
+		"contextMenus",
+		"tabs"
+	]
+
+}
